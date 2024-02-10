@@ -20,7 +20,7 @@ export const Contacts = () => {
                   <BulbIcon />
                 </div>
                 <div>
-                  <h5 className="mb-1 text-xl font-medium">Contatc Us</h5>
+                  <h5 className="mb-1 text-xl font-medium">Contact Us</h5>
                   <p className="text-sm">
                     Ready to elevate practical excellence in the digital age
                     with a security-focused approach? Contact PrizaX today!
