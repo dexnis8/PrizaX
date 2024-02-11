@@ -7,7 +7,7 @@ export const Programs = () => {
     <>
       <div className="border text-white  rounded-lg border-[rgb(47,49,62)] p-10">
         <h3 className="text-lg font-bold flex justify-end text-white">
-          prizaX
+          PrizaX
         </h3>
         <div className="my-10 grid grid-cols-10 items-center gap-10">
           <div className="col-span-6 pr-20">

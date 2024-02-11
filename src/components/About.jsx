@@ -1,4 +1,4 @@
-import { BulbIcon } from "./icons/BulbIcon";
+// import { BulbIcon } from "./icons/BulbIcon";
 
 const About = () => {
   const data = [
@@ -11,9 +11,9 @@ const About = () => {
          flexible approach to meet the unique 
          needs of security-focused 
          professionals.`,
-        ` Recommendation: Use a high-quality 
-        image of a cutting-edge, secure 
-        command center or cybersecurity hub.`,
+        // ` Recommendation: Use a high-quality
+        // image of a cutting-edge, secure
+        // command center or cybersecurity hub.`,
       ],
     },
     {
@@ -24,8 +24,8 @@ const About = () => {
 imparting skills that lead to tangible 
 outcomes, enhancing both professional 
 and personal efficiency.`,
-        `Recommendation: Include an avatar of a 
-futuristic tech persona with security centric elements like digital armor.`,
+        //         `Recommendation: Include an avatar of a
+        // futuristic tech persona with security centric elements like digital armor.`,
       ],
     },
     {
@@ -37,10 +37,10 @@ Empowerment:`,
 workforce capabilities but also empower 
 citizens, contributing to a digitally skilled 
 and efficient society.`,
-        ` Recommendation: Integrate a video 
-background of AI-related animations or 
-data streams with a security-focused 
-narrative`,
+        //         ` Recommendation: Integrate a video
+        // background of AI-related animations or
+        // data streams with a security-focused
+        // narrative`,
       ],
     },
   ];
@@ -48,12 +48,12 @@ narrative`,
     <>
       <div className="border  rounded-lg border-[rgb(47,49,62)] p-10">
         <h3 className="text-lg font-bold flex justify-end text-white">
-          prizaX
+          PrizaX
         </h3>
 
         <div className="flex flex-col gap-5 text-white">
           <h3 className="text-center text-4xl">About Us</h3>
-          <p className="text-center text-base w-[80%] mx-auto text-purple-50">
+          <p className="text-center text-lg w-[80%] mx-auto text-purple-50">
             PrizaX is your strategic ally in cultivating practical excellence
             for the digital era. Our mission is to empower individuals and
             workforces with a dynamic blend of online and on-site training,
@@ -66,19 +66,28 @@ narrative`,
           <div className="grid grid-cols-3 gap-5">
             {data.map((item) => (
               <>
-                <div key={item} className="border rounded-lg p-5 pt-10">
-                  <div className="image">
-                    {/* <img src="" alt="" /> */}
-                    <BulbIcon />
+                <div
+                  key={item}
+                  className="border rounded-lg overflow-hidden duration-300 transition-transform"
+                >
+                  <div className="rounded-lg oveflow-hidden h-[200px] mb-4 ">
+                    <img
+                      src={`./assets/ab${item.id}.jpeg`}
+                      className="w-full h-full hover:scale-[1.2] duration-300 transition-all"
+                      alt=""
+                    />
+                    {/* <BulbIcon /> */}
                   </div>
-                  <p className=" font-medium text-base w-[40%] ">
-                    {item.title}
-                  </p>
-                  <ul className="list-disc pl-4 pb-10 text-sm ">
-                    {item.lists.map((list, index) => (
-                      <li key={index}>{list}</li>
-                    ))}
-                  </ul>
+                  <div className="p-5">
+                    <p className=" font-medium text-base w-[40%] ">
+                      {item.title}
+                    </p>
+                    <ul className=" text-base mt-1 ">
+                      {item.lists.map((list, index) => (
+                        <li key={index}>{list}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </>
             ))}

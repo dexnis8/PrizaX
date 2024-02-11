@@ -7,7 +7,7 @@ export const Facilities = () => {
     <>
       <div className="border text-white  rounded-lg border-[rgb(47,49,62)] p-10">
         <h3 className="text-lg font-bold flex justify-end text-white">
-          prizaX
+          PrizaX
         </h3>
         <div className=" items-center justify-between gap-20 grid grid-cols-10 my-10">
           <div className="col-span-5 pr-10 flex flex-col gap-5">
@@ -35,7 +35,7 @@ export const Facilities = () => {
           <div className="col-span-5 rounded-lg overflow-hidden  ">
             <img
               src="./assets/facilities.jpeg"
-              className="w-[100%] h-[100%] grayscale"
+              className="w-[100%] h-[100%] "
               alt=""
             />
           </div>
