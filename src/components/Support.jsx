@@ -27,7 +27,7 @@ export const Support = () => {
                 <BulbIcon />
               </div>
 
-              <p>
+              <p className="text-base">
                 {" "}
                 Ongoing practical modules to keep security focused individuals
                 and workforces updated on the latest technological advancements.
@@ -39,7 +39,7 @@ export const Support = () => {
                 <BulbIcon />
               </div>
 
-              <p>
+              <p className="text-base">
                 {" "}
                 A dedicated support team provides assistance and guidance
                 post-training, ensuring continuous improvement and efficiency.
@@ -51,7 +51,7 @@ export const Support = () => {
                 <BulbIcon />
               </div>
 
-              <p>
+              <p className="text-base">
                 {" "}
                 Recommendation: Include visuals of continuous learning modules
                 and a support team focused on security aspects.

@@ -27,7 +27,7 @@ export const Certification = () => {
                 <BulbIcon />
               </div>
 
-              <p>
+              <p className="text-lg">
                 {" "}
                 A flexible blend of online modules and on-site sessions tailored
                 for security focused professionals.
@@ -39,7 +39,7 @@ export const Certification = () => {
                 <BulbIcon />
               </div>
 
-              <p>
+              <p className="text-lg">
                 {" "}
                 A flexible blend of online modules and on-site sessions tailored
                 for security focused professionals.
@@ -51,7 +51,7 @@ export const Certification = () => {
                 <BulbIcon />
               </div>
 
-              <p>
+              <p className="text-lg">
                 {" "}
                 A flexible blend of online modules and on-site sessions tailored
                 for security focused professionals.

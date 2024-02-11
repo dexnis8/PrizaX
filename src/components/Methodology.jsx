@@ -34,15 +34,10 @@ export const Methodology = () => {
                 <p className=" font-medium text-base w-[40%] ">
                   Strategic Blended Learning:
                 </p>
-                <ul className="list-disc pl-4 text-sm ">
+                <ul className=" text-base ">
                   <li>
                     A flexible blend of online modules and on-site sessions
                     tailored for security focused professionals.
-                  </li>
-                  <li>
-                    {" "}
-                    Recommendation: Use images of virtual and physical learning
-                    spaces, emphasizing secure training environments
                   </li>
                 </ul>
               </div>
@@ -60,15 +55,10 @@ export const Methodology = () => {
                 <p className=" font-medium text-base w-[40%] ">
                   Experienced Practitioners:
                 </p>
-                <ul className="list-disc pl-4 text-sm ">
+                <ul className="text-base ">
                   <li>
                     Instructors with a background in practical implementation,
                     ensuring relevance to actual work and daily life.
-                  </li>
-                  <li>
-                    {" "}
-                    Recommendation: Consider videos with testimonials from
-                    experienced practitioners in the security domain.
                   </li>
                 </ul>
               </div>
@@ -86,16 +76,10 @@ export const Methodology = () => {
                 <p className=" font-medium text-base w-[40%] ">
                   Customized Learning Options:
                 </p>
-                <ul className="list-disc pl-4 text-sm ">
+                <ul className=" text-base ">
                   <li>
                     Tailored training paths to meet specific professional and
                     personal goals, ensuring practical skill acquisition.
-                  </li>
-                  <li>
-                    {" "}
-                    Recommendation: Include customizable visual elements
-                    representing tailored learning paths, with a focus on
-                    security contexts.
                   </li>
                 </ul>
               </div>

@@ -17,7 +17,7 @@ export const HeroSection = () => {
               Home <br /> Elevate with PrizaX
             </h1>
           </div>
-          <div className="relative  mt-5 flex justify-center h-[400px]  overflow-hidden delay-1000 animate- rounded-tr-0 rounded-lg  col-span-5">
+          <div className="relative hidden  mt-5 lg:flex justify-center h-[400px]  overflow-hidden delay-1000 animate- rounded-tr-0 rounded-lg  col-span-5">
             <img
               src="./assets/hero-image.jpg"
               alt="Hero image"

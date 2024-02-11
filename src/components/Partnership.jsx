@@ -31,7 +31,7 @@ export const Partnership = () => {
                 <h5 className="text-base font-medium my-3">
                   Strategic Partnerships
                 </h5>
-                <p className="text-sm text-purple-50">
+                <p className="text-base text-purple-50">
                   PrizaX collaborates with renowned technology companies &
                   international training platforms, ensuring our programs are
                   always at the forefront of advancing brilliance. Our

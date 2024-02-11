@@ -23,7 +23,7 @@ export const Facilities = () => {
                 <h5 className="text-base font-medium my-3">
                   Virtual and Physical Learning Spaces
                 </h5>
-                <p className="text-sm text-purple-50">
+                <p className="text-base text-purple-50">
                   PrizaX brings learning to your preferred secure environment.
                   Our virtual platforms & on-site sessions offer the best of
                   both worlds, ensuring a seamless and impactful training

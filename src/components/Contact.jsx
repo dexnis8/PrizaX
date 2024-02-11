@@ -3,6 +3,79 @@
 import { BulbIcon } from "./icons/BulbIcon";
 
 export const Contacts = () => {
+  const data = [
+    {
+      id: 1,
+      name: "Lt.col(Rtd) Louis Ntabshwa",
+      role: "Partner | PrizaX",
+    },
+
+    {
+      id: 2,
+      name: "Yan Kwizera",
+      role: "Partner | PrizaX",
+    },
+
+    {
+      id: 3,
+      name: "Sergey Irshnikov",
+      role: "Consultant | Directorate General Of Immigration and Emigration",
+    },
+
+    {
+      id: 4,
+      name: "Aimable Rukundo",
+      role: "Chief Digital Innovations | RSwitch",
+    },
+
+    {
+      id: 5,
+      name: "J.Damascene Habanabashaka",
+      role: "Instructor | Rwanda Coding Academy",
+    },
+
+    {
+      id: 6,
+      name: "Stanley Mwizerwa",
+      role: "Instructor | Rwanda Coding Academy",
+    },
+
+    {
+      id: 7,
+      name: "Donatien Masengesho",
+      role: "Senior Software Engineer | Bank of Kigali",
+    },
+
+    {
+      id: 8,
+      name: "Didier Uwantwali Zigama",
+      role: "Senior Software Developer | Justice Sector",
+    },
+
+    {
+      id: 9,
+      name: "Christian Iradukunda",
+      role: "Senior Software Developer | Rockefeller Philanthropy Advisors",
+    },
+
+    {
+      id: 10,
+      name: "Jean Pierre Niyodusenga",
+      role: "Lecturer | AUCA",
+    },
+
+    {
+      id: 11,
+      name: "Alleluya Iradakunda",
+      role: "Principal DevOps Engineer | RISA",
+    },
+
+    {
+      id: 12,
+      name: "Kimon Hars",
+      role: "Directorate | The Gym Software Training Program",
+    },
+  ];
   return (
     <>
       <div className="border text-white  rounded-lg border-[rgb(47,49,62)] p-10">
@@ -21,7 +94,7 @@ export const Contacts = () => {
                 </div>
                 <div>
                   <h5 className="mb-1 text-xl font-medium">Contact Us</h5>
-                  <p className="text-sm">
+                  <p className="text-base">
                     Ready to elevate practical excellence in the digital age
                     with a security-focused approach? Contact PrizaX today!
                   </p>
@@ -36,7 +109,7 @@ export const Contacts = () => {
                   {/* <h5 className="mb-1 text-base font-medium">
                     Strategic Digital Leadership Program (Advanced Level):
                   </h5> */}
-                  <p className="text-sm">
+                  <p className="text-base">
                     At PrizaX, our strategic partnerships keep us at the
                     forefront of excellence, ensuring that you receive the most
                     advanced and relevant training with a strong focus on
@@ -47,22 +120,22 @@ export const Contacts = () => {
             </div>
           </div>
           <div className="col-span-5  grid grid-cols-2 gap-2">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((item) => (
+            {data.map((item) => (
               <>
                 <div
-                  key={item}
+                  key={item.id}
                   className="border border-[rgb(47,49,62)] px-3 py-2 flex gap-4 items-center  rounded-lg"
                 >
-                  <div className="h-[70px] w-[70px] flex justify-center items-center  rounded-full bg-white">
+                  <div className="h-[70px] flex justify-center items-center w-[70px] overflow-hidden  rounded-full border">
                     <img
-                      src="./assets/userID.png"
-                      className="w-full h-full"
-                      alt=""
+                      src={`./assets/c${item.id}.jpeg`}
+                      className="w-[100%] h-[100%] rounded-full"
+                      alt={item.name}
                     />
                   </div>
                   <div>
-                    <h6 className="text-sm">Oladeji Ayotunde</h6>
-                    <p className="text-xs">Partner | prizaX</p>
+                    <h6 className="text-base">{item.name}</h6>
+                    <p className="text-xs">{item.role}</p>
                   </div>
                 </div>
               </>
