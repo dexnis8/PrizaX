@@ -64,17 +64,17 @@ export const Contacts = () => {
       role: "Lecturer | AUCA",
     },
 
-    // {
-    //   id: 11,
-    //   name: "Alleluya Iradakunda",
-    //   role: "Principal DevOps Engineer | RISA",
-    // },
+    {
+      id: 11,
+      name: "Alleluya Iradakunda",
+      role: "Principal DevOps Engineer | RISA",
+    },
 
-    // {
-    //   id: 12,
-    //   name: "Kimon Hars",
-    //   role: "Directorate | The Gym Software Training Program",
-    // },
+    {
+      id: 12,
+      name: "Kimon Hars",
+      role: "Directorate | The Gym Software Training Program",
+    },
   ];
   return (
     <>
