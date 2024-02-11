@@ -64,52 +64,52 @@ export const Contacts = () => {
       role: "Lecturer | AUCA",
     },
 
-    {
-      id: 11,
-      name: "Alleluya Iradakunda",
-      role: "Principal DevOps Engineer | RISA",
-    },
+    // {
+    //   id: 11,
+    //   name: "Alleluya Iradakunda",
+    //   role: "Principal DevOps Engineer | RISA",
+    // },
 
-    {
-      id: 12,
-      name: "Kimon Hars",
-      role: "Directorate | The Gym Software Training Program",
-    },
+    // {
+    //   id: 12,
+    //   name: "Kimon Hars",
+    //   role: "Directorate | The Gym Software Training Program",
+    // },
   ];
   return (
     <>
-      <div className="border text-white  rounded-lg border-[rgb(47,49,62)] p-10">
+      <div className="border text-white  rounded-lg border-[rgb(47,49,62)] px-2 py-10 sm:p-10">
         <h3 className="text-lg font-bold flex justify-end text-white">
           PrizaX
         </h3>
-        <div className="my-10 grid grid-cols-10 items-center">
-          <div className="col-span-5 pr-20">
-            <h4 className="text-4xl leading-[48px]">
+        <div className="my-10 w-full flex flex-col gap-10 lg:gap-0 lg:grid lg:grid-cols-10 items-center">
+          <div className="col-span-5 sm:pr-20">
+            <h4 className="text-2xl sm:text-4xl leading-[48px]">
               Contact - Start Your Transformation
             </h4>
-            <div className="flex flex-col gap-3 mt-5">
-              <div className="flex gap-3 mt-1 pr-10">
+            <div className="flex w-full  flex-col gap-3 mt-5">
+              <div className="flex  flex-col sm:flex-row  sm:gap-3 mt-1 sm:pr-10">
                 <div>
                   <BulbIcon />
                 </div>
                 <div>
                   <h5 className="mb-1 text-xl font-medium">Contact Us</h5>
-                  <p className="text-base">
+                  <p className="text-base w-full">
                     Ready to elevate practical excellence in the digital age
                     with a security-focused approach? Contact PrizaX today!
                   </p>
                 </div>
               </div>
 
-              <div className="flex gap-3 mt-1 pr-10">
+              <div className="flex flex-col sm:flex-row sm:gap-3 mt-1 sm:pr-10">
                 <div>
                   <BulbIcon />
                 </div>
-                <div>
+                <div className="w-full">
                   {/* <h5 className="mb-1 text-base font-medium">
                     Strategic Digital Leadership Program (Advanced Level):
                   </h5> */}
-                  <p className="text-base">
+                  <p className="text-base w-full">
                     At PrizaX, our strategic partnerships keep us at the
                     forefront of excellence, ensuring that you receive the most
                     advanced and relevant training with a strong focus on
@@ -119,7 +119,7 @@ export const Contacts = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-5  grid grid-cols-2 gap-2">
+          <div className="col-span-5 flex flex-col   sm:grid grid-cols-2 gap-2">
             {data.map((item) => (
               <>
                 <div
@@ -129,7 +129,7 @@ export const Contacts = () => {
                   <div className="h-[70px] flex justify-center items-center w-[70px] overflow-hidden  rounded-full border">
                     <img
                       src={`./assets/c${item.id}.jpeg`}
-                      className="w-[100%] h-[100%] rounded-full"
+                      className="w-[100%] h-[100%]"
                       alt={item.name}
                     />
                   </div>

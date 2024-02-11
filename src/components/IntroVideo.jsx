@@ -3,7 +3,7 @@ export const IntroVideo = () => {
   return (
     <>
       {" "}
-      <div className="w-fit border-[rgb(47,49,62)] shadow mx-auto  border rounded-lg overflow-hidden bg-purple-800 h-[500px]">
+      <div className="w-fit border-[rgb(47,49,62)] shadow mx-auto  border rounded-lg overflow-hidden bg-purple-800 h-fit md:h-[500px]">
         <ReactPlayer
           url="./assets/intro-video.mp4"
           width="100%"

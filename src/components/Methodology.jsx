@@ -5,13 +5,13 @@
 export const Methodology = () => {
   return (
     <>
-      <div className="border text-white  rounded-lg border-[rgb(47,49,62)] p-10">
+      <div className="border text-white  rounded-lg border-[rgb(47,49,62)] px-2 py-10 sm:p-10">
         <h3 className="text-lg font-bold flex justify-end text-white">
           PrizaX
         </h3>
 
         <div>
-          <h2 className="text-center text-4xl w-[35%] leading-[56px] mx-auto">
+          <h2 className="text-center text-2xl sm:text-4xl  sm:w-[50%] lg:w-[35%] leading-[56px] mx-auto">
             Methodology - Flexibility in Learning
           </h2>
           <div className="flex justify-center">
@@ -21,7 +21,7 @@ export const Methodology = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-3 gap-5 mt-10">
+          <div className="flex flex-col  sm:grid grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
             <div className="border rounded-lg overflow-hidden">
               <div className="rounded-lg oveflow-hidden h-[200px] mb-4 ">
                 <img

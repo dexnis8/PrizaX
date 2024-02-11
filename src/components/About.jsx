@@ -46,14 +46,14 @@ and efficient society.`,
   ];
   return (
     <>
-      <div className="border  rounded-lg border-[rgb(47,49,62)] p-10">
+      <div className="border  rounded-lg border-[rgb(47,49,62)] px-2 py-10  sm:p-10">
         <h3 className="text-lg font-bold flex justify-end text-white">
           PrizaX
         </h3>
 
         <div className="flex flex-col gap-5 text-white">
           <h3 className="text-center text-4xl">About Us</h3>
-          <p className="text-center text-lg w-[80%] mx-auto text-purple-50">
+          <p className="text-center text-base sm:text-lg sm:w-[80%] mx-auto text-purple-50">
             PrizaX is your strategic ally in cultivating practical excellence
             for the digital era. Our mission is to empower individuals and
             workforces with a dynamic blend of online and on-site training,
@@ -63,7 +63,7 @@ and efficient society.`,
 
           <h4 className="text-center text-2xl font-semibold">Why PrizaX?</h4>
 
-          <div className="grid grid-cols-3 gap-5">
+          <div className="flex flex-col sm:grid grid-cols-2 lg:grid-cols-3 gap-5">
             {data.map((item) => (
               <>
                 <div

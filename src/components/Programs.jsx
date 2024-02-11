@@ -32,17 +32,17 @@ export const Programs = () => {
   ];
   return (
     <>
-      <div className="border text-white  rounded-lg border-[rgb(47,49,62)] p-10">
+      <div className="border text-white  rounded-lg border-[rgb(47,49,62)] px-2 py-10 sm:p-10">
         <h3 className="text-lg font-bold flex justify-end text-white">
           PrizaX
         </h3>
         <div className="my-10  flex flex-col gap-10">
           <div className="">
-            <h4 className="text-4xl leading-[48px]">
+            <h4 className="text-2xl sm:text-4xl leading-[48px]">
               Programs <br /> Elevate Your Skills
             </h4>
             <h5 className="my-3 text-xl font-semibold">Our Programs</h5>
-            <div className="grid grid-cols-3 gap-3">
+            <div className=" flex-col flex sm:grid grid-cols-2 lg:grid-cols-3 gap-3">
               <div className="flex flex-col gap-3 mt-1">
                 <div>
                   <BulbIcon />
@@ -92,7 +92,7 @@ export const Programs = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-4 border border-[rgb(47,49,62)] text-white rounded-lg p-7">
+          <div className="col-span-4 sm:border border-[rgb(47,49,62)] text-white rounded-lg sm:p-7">
             <div className="mb-5">
               <h4 className="text-2xl font-medium mt-2 mb-3">
                 Specialized Courses:
@@ -103,7 +103,7 @@ export const Programs = () => {
               </p>
             </div>
             {/* here */}
-            <div className="grid grid-cols-3 gap-5">
+            <div className="flex flex-col sm:grid grid-cols-2 lg:grid-cols-3 gap-5">
               {data.map((item) => (
                 <>
                   <div
