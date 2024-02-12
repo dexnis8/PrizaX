@@ -3,7 +3,7 @@
 export const HeroSection = () => {
   return (
     <>
-      <div className="relative  bg-cover bg-center my-5 transition duration-300 ease-in-out border border-[rgb(47,49,62)] rounded-lg px-2 py-10 sm:p-10 bg-hero-image custom-gradient">
+      <div className="relative  bg-cover bg-center my-5 transition duration-300 ease-in-out border border-[rgb(47,49,62)] rounded-lg px-2 py-10 sm:p-10 bg-hero-image">
         {/* <div className="overlay opacity-50"></div> */}
 
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
