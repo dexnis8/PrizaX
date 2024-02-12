@@ -10,7 +10,7 @@ export const Partnership = () => {
           PrizaX
         </h3>
         <div className=" items-center justify-between gap-20 flex flex-col lg:grid lg:grid-cols-10 my-10">
-          <div className="col-span-5 rounded-lg overflow-hidden border  ">
+          <div className="col-span-5 rounded-lg overflow-hidden   ">
             <img
               src="./assets/partner.jpeg"
               className="w-[100%] h-[100%]"

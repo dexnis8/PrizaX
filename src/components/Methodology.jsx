@@ -22,7 +22,7 @@ export const Methodology = () => {
           </div>
 
           <div className="flex flex-col  sm:grid grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
-            <div className="border rounded-lg overflow-hidden">
+            <div className="border  border-[rgb(47,49,62)] rounded-lg overflow-hidden">
               <div className="rounded-lg oveflow-hidden h-[200px] mb-4 ">
                 <img
                   src={`./assets/met1.webp`}
@@ -43,7 +43,7 @@ export const Methodology = () => {
               </div>
             </div>
 
-            <div className="border rounded-lg overflow-hidden">
+            <div className="border  border-[rgb(47,49,62)] rounded-lg overflow-hidden">
               <div className="rounded-lg oveflow-hidden h-[200px] mb-4 ">
                 <img
                   src={`./assets/met2.jpeg`}
@@ -64,7 +64,7 @@ export const Methodology = () => {
               </div>
             </div>
 
-            <div className="border rounded-lg overflow-hidden">
+            <div className="border  border-[rgb(47,49,62)] rounded-lg overflow-hidden">
               <div className="rounded-lg oveflow-hidden h-[200px] mb-4 ">
                 <img
                   src={`./assets/met3.jpeg`}

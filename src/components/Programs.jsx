@@ -108,7 +108,7 @@ export const Programs = () => {
                 <>
                   <div
                     key={item}
-                    className="border rounded-lg overflow-hidden duration-300 transition-transform"
+                    className="border border-[rgb(47,49,62)] rounded-lg overflow-hidden duration-300 transition-transform"
                   >
                     <div className="rounded-lg oveflow-hidden h-[200px] mb-4 ">
                       <img
