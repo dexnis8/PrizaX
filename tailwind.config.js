@@ -11,6 +11,9 @@ export default {
         "rgb-80-40-191": "rgb(80,40,191)",
         "rgb-108-64-223": "rgb(108,64,223)",
       },
+      backgroundImage: {
+        "hero-image": "url('./assets/hero-image.jpg')",
+      },
     },
   },
   plugins: [],

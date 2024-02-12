@@ -3,7 +3,11 @@
 export const HeroSection = () => {
   return (
     <>
-      <div className="my-5 transition duration-300 ease-in-out hover:bg-purple-800 border border-[rgb(47,49,62)] rounded-lg px-2 py-10 sm:p-10 custom-gradient">
+      <div className="relative  bg-cover bg-center my-5 transition duration-300 ease-in-out border border-[rgb(47,49,62)] rounded-lg px-2 py-10 sm:p-10 bg-hero-image custom-gradient">
+        {/* <div className="overlay opacity-50"></div> */}
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+
         <header className="flex gap-1 items-center">
           <div className="h-[30px] w-4[30px] overflow-hidden">
             <img src="./assets/logo.png" className="w-full h-full" alt="logo" />
@@ -18,11 +22,11 @@ export const HeroSection = () => {
             </h1>
           </div>
           <div className="relative  mt-5 flex justify-center lg:h-[400px]  overflow-hidden delay-1000 animate- rounded-tr-0 rounded-lg  col-span-5">
-            <img
+            {/* <img
               src="./assets/hero-image.jpg"
               alt="Hero image"
               className="w-full h-full"
-            />
+            /> */}
             {/* <LazyLoadImage
               alt="man with vision pro"
               src={"/assets/heroImage.png"}
