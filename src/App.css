@@ -36,6 +36,9 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+.hero-bg {
+  background-image: url("./assets/hero-image.jpg");
+}
 .galaxy-animate {
   animation: rotate 30s ease-in-out infinite;
 }
