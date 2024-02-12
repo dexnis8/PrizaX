@@ -72,7 +72,7 @@ and efficient society.`,
                 >
                   <div className="rounded-lg oveflow-hidden h-[200px] mb-4 ">
                     <img
-                      src={`./assets/ab${item.id}.jpeg`}
+                      src={`./assets/abt${item.id}.jpeg`}
                       className="w-full h-full hover:scale-[1.2] duration-300 transition-all"
                       alt=""
                     />
